@@ -1,88 +1,92 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
 #container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.weather_card > *:not(:last-child) {
-    margin-bottom: 0.7rem;
+.weather_card>*:not(:last-child) {
+  margin-bottom: 0.7rem;
 }
 
 .weather_card {
-    width: 90%;
-    max-width: 300px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
-    padding: 1.5rem 2rem;
-    border-radius: 15px;
+  width: 90%;
+  max-width: 300px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  padding: 1.5rem 2rem;
+  border-radius: 15px;
 }
 
 .card_top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 .card_top input {
-    flex-grow: 1;
-    padding: 0.7rem 0 0.7rem 0.7rem;
-    border-radius: 20px;
-    border: none;
-    outline: none;
+  flex-grow: 1;
+  padding: 0.7rem 0 0.7rem 0.7rem;
+  border-radius: 20px;
+  border: none;
+  outline: none;
 }
 
 .card_top i {
-    background-color: white;
-    padding: 0.7rem 0.7rem;
-    border-radius: 50%;
-    font-weight: 600;
+  background-color: white;
+  padding: 0.7rem 0.7rem;
+  border-radius: 50%;
+  font-weight: 600;
 }
 
 .weather_card img {
-    width: 50%;
-    display: block;
-    margin: auto;
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 
-.weather_card h1, h2 {
-    text-align: center;
-    color: #fff;
+.weather_card h1,
+h2 {
+  text-align: center;
+  color: #fff;
 }
 
 .weather_card h1 {
-    font-size: 1.7rem
+  font-size: 1.7rem
 }
 
 .weather_card h2 {
-    font-size: 1.4rem;
-    font-weight: 300;
+  font-size: 1.4rem;
+  font-weight: 300;
 }
 
 .card_bottom {
-    display: flex;
-    justify-content: space-between;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
 
-.humidity p:first-child, .wind_speed p:first-child {
-    font-size: 1rem;
-    margin-bottom: 0.3rem;
+.humidity p:first-child,
+.wind_speed p:first-child {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
 }
 
-.humidity p, .wind_speed p {
-    font-size: 0.7rem;
+.humidity p,
+.wind_speed p {
+  font-size: 0.7rem;
 }
